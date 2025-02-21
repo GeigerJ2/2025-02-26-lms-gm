@@ -6,19 +6,17 @@
 
 ### Internal file repository
 
-#### Loose and packed
-
 ### Getting data out of AiiDA
-
-#### REST API
 
 #### Data mirroring
 
-## Engine
+? ### REST API
 
-### More async
+? ## Engine
 
-### Daemons and RMQ communication
+? ### More async
+
+? ### Daemons and RMQ communication
 
 ## Code quality
 
@@ -30,7 +28,11 @@
 
 ### Testing
 
+### Maintenance
+
 ## Misc
+
+### Git
 
 ### GitHub actions
 
@@ -41,4 +43,3 @@
 ### The AiiDA universe
 
 ## Why RSEs?
-

@@ -12,9 +12,6 @@ class User(Base):
     name = Column(String, nullable=False)
     age = Column(Integer)
 
-    def __repr__(self):
-        return f"User(id={self.id}, name='{self.name}', age={self.age})"
-
 # 3️⃣ Create an engine (SQLite in this case)
 engine = create_engine("sqlite:///example.db")
 
