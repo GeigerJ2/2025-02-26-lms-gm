@@ -6,7 +6,6 @@ profile = load_profile("lms-gm")
 manager = get_manager()
 storage = manager.get_profile_storage()
 container = storage.get_container()
-dos_path = container.get_folder()
 
 # First hashkey via sqlitebrowser
 file_content = container.get_object_content(
